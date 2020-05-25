@@ -27,7 +27,6 @@ def detect(gray, frame):
 				# If both eyes are detected, script captures photo and outputs it in /img folder.
 				if len(eyes) == 2:
 					cv2.imwrite("./img/output.jpg", frame)
-
 	return frame 
 
 # Connecting to the webcam
